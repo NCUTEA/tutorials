@@ -4,17 +4,19 @@
 
 ## ACM
 
+[Link](/acm/)
+
 ## Android
 
-Android
+[Link](/android/)
 
 ## CTF
 
-CTF
+[Link](/ctf/)
 
 ## Web
 
-[Link](/tutorials/web/)
+[Link](/web/)
 
 ## 讨论区
 

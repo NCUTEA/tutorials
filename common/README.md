@@ -1,6 +1,6 @@
 # 通用技能
 
-* [入门教程](/common/first/)
+* [入门教程](/common/first)
 
 ## 开发类技能
 
@@ -114,7 +114,7 @@ PS: GitHub 上有一系列如 Awesome-xxx 的仓库，里面包含各方面非�
 
 * 求职相关
   * <https://github.com/CyC2018/Interview-Notebook>
-* <https://github.com/crossoverJie/Java-Interview>
+  * <https://github.com/crossoverJie/Java-Interview>
   * <https://github.com/resumejob/awesome-resume>
 
 * growth 全栈增长工程师指南
