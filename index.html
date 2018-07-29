@@ -12,9 +12,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
     <link rel="stylesheet" href="//cdn.bootcss.com/docsify/4.6.10/themes/vue.css" title="vue">
-    <!-- <link rel="stylesheet" href="//cdn.bootcss.com/docsify/4.6.10/themes/dark.css" title="dark" disabled>
-    <link rel="stylesheet" href="//cdn.bootcss.com/docsify/4.6.10/themes/buble.css" title="buble" disabled>
-    <link rel="stylesheet" href="//cdn.bootcss.com/docsify/4.6.10/themes/pure.css" title="pure" disabled> -->
+    <link rel="stylesheet" href="./_media/css/toc-right.css">
+    <!--<link rel="stylesheet" href="//cdn.bootcss.com/docsify/4.6.10/themes/dark.css" title="dark" disabled>-->
+    <!--<link rel="stylesheet" href="//cdn.bootcss.com/docsify/4.6.10/themes/buble.css" title="buble" disabled>-->
+    <!--<link rel="stylesheet" href="//cdn.bootcss.com/docsify/4.6.10/themes/pure.css" title="pure" disabled>-->
 
     <!-- <script src="//unpkg.com/docsify-plugin-codefund/index.js"></script> -->
 
@@ -56,6 +57,7 @@
             // 添加到github上编辑
             function (hook, vm) {
                 hook.beforeEach(function (html) {
+                    let url;
                     if (/githubusercontent\.com/.test(vm.route.file)) {
                         url = vm.route.file
                             .replace('raw.githubusercontent.com', 'github.com')
@@ -80,6 +82,10 @@
 </script>
 <script src="//cdn.bootcss.com/docsify/4.6.10/docsify.min.js"></script>
 <script src="//cdn.bootcss.com/docsify/4.6.10/plugins/search.min.js"></script>
+<script src="//cdn.bootcss.com/docsify/4.6.10/plugins/zoom-image.min.js"></script>
+<script src="//unpkg.com/docsify-copy-code"></script>
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<script src="./_media/js/docsify-breadcrumb.js"></script>
 <!-- <script src="//cdn.bootcss.com/docsify/4.6.10/plugins/ga.min.js"></script> -->
 <script src="//cdn.bootcss.com/prism/1.14.0/components/prism-bash.min.js"></script>
 <script src="//cdn.bootcss.com/prism/1.14.0/components/prism-markdown.min.js"></script>
