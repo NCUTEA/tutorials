@@ -1,4 +1,4 @@
-* [首页](/README)
+* [首页](/)
 
 * [新生入门 (!)](/common/first.md)
 
@@ -12,4 +12,4 @@
 
 * [Web](/web/)
 
-* [Markdown Slides](/slides ':ignore')
+* [Markdown Slides](./slides/ ':ignore')
