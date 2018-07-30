@@ -8,7 +8,7 @@
 
 [Java](/common/java/)
 
-Spring / SpringBoot 系列
+[SpringBoot](/web/java/springboot/)
 
 JPA
 
@@ -35,7 +35,6 @@ Nginx 配置
 ## 后端开发通用技能
 
 调用其他系统 API <https://github.com/TonnyL/Awesome_APIs>
-
 
 Postman 接口测试
 
@@ -88,4 +87,3 @@ RPC
 实时调度
 
 集群管理
-

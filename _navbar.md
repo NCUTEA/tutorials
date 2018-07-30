@@ -11,3 +11,5 @@
 * [CTF](/ctf/)
 
 * [Web](/web/)
+
+* [Markdown Slides](/slides ':ignore')

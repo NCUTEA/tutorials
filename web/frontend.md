@@ -24,7 +24,7 @@ Typescript
 
 界面库：elementui、antd
 
-electron 桌面开发
+electron <https://github.com/sindresorhus/awesome-electron>
 
 Less、Sass、Stylus 等
 
@@ -38,13 +38,13 @@ W3C
 
 ## 前端工具
 
-NodeJS
+* NodeJS
 
-Webpack
+* Webpack
 
-前端自动化测试
+* 前端自动化测试
 
-  - Selenium / PhantomJS
+  * Selenium / PhantomJS
 
 ## 网络通信
 
@@ -66,7 +66,5 @@ websocket
 
 参考资料：
 
-<https://github.com/dypsilon/frontend-dev-bookmarks>
-* <https://github.com/sindresorhus/awesome-electron>
-
+* <https://github.com/dypsilon/frontend-dev-bookmarks>
 * <https://github.com/vuejs/awesome-vue>

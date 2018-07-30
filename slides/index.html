@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>技术交流协会 Markdown Player</title>
+    <title>技术交流协会 Markdown Slide</title>
 
     <!--<meta name="description" content="A framework for easily creating beautiful presentations using HTML">-->
 
@@ -24,7 +24,7 @@
 
     <!-- Printing and PDF exports -->
     <script>
-        var link = document.createElement('link');
+        let link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
         link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
@@ -114,21 +114,20 @@
         if (ele.getAttribute("data-markdown") !== undefined) {
             let file = getQueryStringByName("file");
             if (file !== "") {
-                localStorage.setItem("lastFile", file);
+                // 防止url跳转queryString 丢失
+                localStorage.setItem("last-markdown-file", file);
                 console.log("fileInQueryString", file);
             } else {
-                file = localStorage.getItem("lastFile");
-                if(file === undefined)
+                file = localStorage.getItem("last-markdown-file");
+                if (file === null)
                     file = "/common/slides-guide.md";
-                console.log("getLastFile",file)
+                console.log("getLastFile", file)
             }
 
             ele.setAttribute("data-markdown", file);
             break;
         }
     }
-
-    // 防止url跳转queryString 丢失
 
 </script>
 

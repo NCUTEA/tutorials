@@ -1,6 +1,6 @@
 # 通用技能
 
-* [入门教程](/common/first)
+* [入门教程](/common/first.md)
 
 ## 开发类技能
 
@@ -21,7 +21,7 @@
 * React Native
 * Weex
 * More
-  
+
 ### 桌面端开发
 
 * WinForm
@@ -108,6 +108,7 @@ PS: GitHub 上有一系列如 Awesome-xxx 的仓库，里面包含各方面非�
 * 课程
   * <https://github.com/1c7/crash-course-computer-science-chinese>
   * <https://github.com/prakhar1989/awesome-courses>
+
 * <https://github.com/aalansehaiyang/technology-talk>
 * <https://github.com/Hack-with-Github/Awesome-Hacking>
 * More
