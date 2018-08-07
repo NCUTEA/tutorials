@@ -1,4 +1,4 @@
-`* [首页](/README.md)
+* [首页](/README.md)
 
 * [新生入门 <sup style="color:red">(!)<sup>](/common/first.md)
 
