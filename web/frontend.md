@@ -18,7 +18,9 @@ jQuery
 
 BootStrap
 
-Vue.js
+* Vue.js
+  * <https://vuejs.org>
+  * <https://github.com/vuejs/awesome-vue>
 
 Typescript
 
@@ -28,7 +30,7 @@ electron <https://github.com/sindresorhus/awesome-electron>
 
 Less、Sass、Stylus 等
 
-> 关键是自己发现
+> 前端更新快，关键是自己发现
 
 Webpack
 
@@ -66,5 +68,4 @@ websocket
 
 参考资料：
 
-* <https://github.com/dypsilon/frontend-dev-bookmarks>
-* <https://github.com/vuejs/awesome-vue>
+<https://github.com/dypsilon/frontend-dev-bookmarks>

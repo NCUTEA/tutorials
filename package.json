@@ -1,0 +1,19 @@
+{
+    "name": "ncutea-tutorials",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "serve": "docsify serve",
+        "lint": "markdownlint -i node_modules -i \"**/_*.md\" .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "NoCLin@NCUTEA",
+    "license": "ISC",
+    "dependencies": {
+        "markdownlint-cli": "^0.12.0"
+    },
+    "devDependencies": {
+        "docsify-cli": "^4.2.1"
+    }
+}

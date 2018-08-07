@@ -2,22 +2,16 @@
 
 > 技术交流会的教程合集
 
-## ACM
+## 教程
 
-[Link](/acm/)
+[ACM](/acm/README.md)
 
-## Android
+[Android](/android/README.md)
 
-[Link](/android/)
+[CTF](/ctf/README.md)
 
-## CTF
+[Web](/web/README.md)
 
-[Link](/ctf/)
+## [论坛](http://github.com/)
 
-## Web
-
-[Link](/web/)
-
-## 讨论区
-
-前往 👉 [论坛](https://) 讨论
+## [如何参与贡献](/CONTRIBUTING.md)

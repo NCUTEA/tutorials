@@ -1,15 +1,15 @@
-* [首页](/)
+`* [首页](/README.md)
 
-* [新生入门 (!)](/common/first.md)
+* [新生入门 <sup style="color:red">(!)<sup>](/common/first.md)
 
-* [通用教程](/common/)
+* [通用教程](/common/README.md)
 
-* [ACM](/acm/)
+* [ACM](/acm/README.md)
 
-* [Android](/android/)
+* [Android](/android/README.md)
   
-* [CTF](/ctf/)
+* [CTF](/ctf/README.md)
 
-* [Web](/web/)
+* [Web](/web/README.md)
 
-* [Markdown Slides](./slides/ ':ignore')
+* [Markdown Slides](../reveal.js/index.html ':ignore')

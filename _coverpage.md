@@ -8,5 +8,5 @@
 * Line2
 * Line3
 
-[GitHub](https://github.com/repo)
-[Get Started](#索引)
+[GitHub](https://github.com/ncutea/tutorials)
+[Get Started](/README.md)

@@ -1,1 +1,2 @@
+# gitee 似乎不支持 .nojekyll，因此使用 include 防止 `_开头的文件` 被 jekyll 忽略。
 include: [_navbar.md, _sidebar.md, _coverpage.md, _media]

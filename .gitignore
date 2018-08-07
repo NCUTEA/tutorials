@@ -54,3 +54,5 @@ Temporary Items
 /.idea
 /.vscode
 /stash
+/node_modules
+/yarn.lock

@@ -6,9 +6,9 @@
 
 ## Java Web
 
-[Java](/common/java/)
+[Java](/common/java/README.md)
 
-[SpringBoot](/web/java/springboot/)
+[SpringBoot](./java/springboot/README.md)
 
 JPA
 
@@ -18,7 +18,7 @@ MyBatis
 
 ## Python Web
 
-[Python](/common/python/)
+[Python](/common/python/README.md)
 
 django
 

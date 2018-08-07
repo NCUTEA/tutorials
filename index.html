@@ -6,12 +6,12 @@
     <title>技术交流协会</title>
     <link rel="icon" href="_media/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="keywords" content="keywords">
-    <meta name="description" content="description">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <link rel="stylesheet" href="//cdn.bootcss.com/docsify/4.6.10/themes/vue.css" title="vue">
+    <link rel="stylesheet" href="./_media/css/vue.css" title="vue">
     <link rel="stylesheet" href="./_media/css/toc-right.css">
     <!--<link rel="stylesheet" href="//cdn.bootcss.com/docsify/4.6.10/themes/dark.css" title="dark" disabled>-->
     <!--<link rel="stylesheet" href="//cdn.bootcss.com/docsify/4.6.10/themes/buble.css" title="buble" disabled>-->
@@ -23,11 +23,15 @@
         nav.app-nav li ul {
             min-width: 100px;
         }
+        /*!*隐藏手机版导航*!*/
+        /*body > aside > nav {*/
+        /*display: none;*/
+        /*}*/
     </style>
 </head>
 
 <body>
-<div id="app">加载中</div>
+<div id="app">加载中...</div>
 <script>
     window.$docsify = {
         alias: {
@@ -52,7 +56,7 @@
                 '/': '搜索'
             }
         },
-        formatUpdated: '{MM}/{DD} {HH}:{mm}',
+        formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}',
         plugins: [
             // 添加到github上编辑
             function (hook, vm) {
@@ -69,6 +73,7 @@
                     let headerHtml = ``;
 
                     let footerHtml = '\n\n----\n\n' +
+                        '最后更新时间：{docsify-updated} \n\n'+
                         ':memo:在 [Github](' + url + ') 上编辑\n\n' +
                         '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>';
 
@@ -80,17 +85,23 @@
         ]
     }
 </script>
-<script src="//cdn.bootcss.com/docsify/4.6.10/docsify.min.js"></script>
+<!--<script src="//cdn.bootcss.com/docsify/4.6.10/docsify.min.js"></script>-->
+<script src="./_media/js/docsify.js"></script>
 <script src="//cdn.bootcss.com/docsify/4.6.10/plugins/search.min.js"></script>
 <script src="//cdn.bootcss.com/docsify/4.6.10/plugins/zoom-image.min.js"></script>
-<script src="//unpkg.com/docsify-copy-code"></script>
-<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+ <!--<script src="//cdn.bootcss.com/docsify/4.6.10/plugins/ga.min.js"></script> -->
+<script src="./_media/js/docsify-copy-code.js"></script>
+<script src="./_media/js/docsify-pagination.js"></script>
 <script src="./_media/js/docsify-breadcrumb.js"></script>
-<!-- <script src="//cdn.bootcss.com/docsify/4.6.10/plugins/ga.min.js"></script> -->
+
+<script src="//cdn.bootcss.com/prism/1.14.0/components/prism-c.min.js"></script>
+<script src="//cdn.bootcss.com/prism/1.14.0/components/prism-cpp.min.js"></script>
+<script src="//cdn.bootcss.com/prism/1.14.0/components/prism-java.min.js"></script>
+<script src="//cdn.bootcss.com/prism/1.14.0/components/prism-python.min.js"></script>
+<script src="//cdn.bootcss.com/prism/1.14.0/components/prism-javascript.min.js"></script>
 <script src="//cdn.bootcss.com/prism/1.14.0/components/prism-bash.min.js"></script>
 <script src="//cdn.bootcss.com/prism/1.14.0/components/prism-markdown.min.js"></script>
-<script src="//cdn.bootcss.com/prism/1.14.0/components/prism-nginx.min.js"></script>
-<!--TODO: 添加更多语言高亮插件-->
+
 
 <!--<script>-->
 <!--((window.gitter = {}).chat = {}).options = {-->
