@@ -1,4 +1,9 @@
 # CTF
-[信息安全学习简介](/ctf/信安学习路径.md)
 
-[学习路径](/ctf/资料.md)
+[信息安全学习路径](./learning-paths.md)
+
+[信息安全资料](./materials.md)
+
+[信息安全学习路径](./learning-paths.md ':include :type=markdown')
+
+[信息安全资料](./materials.md ':include :type=markdown')
