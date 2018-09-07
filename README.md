@@ -1,8 +1,6 @@
-# 索引
+# 技术交流协会教程集
 
-> 技术交流会的教程合集
-
-## 教程
+[公共基础知识](/common/README.md)
 
 [ACM](/acm/README.md)
 
@@ -11,7 +9,5 @@
 [CTF](/ctf/README.md)
 
 [Web](/web/README.md)
-
-## [论坛](http://github.com/)
 
 ## [如何参与贡献](/CONTRIBUTING.md)

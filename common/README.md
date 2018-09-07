@@ -1,6 +1,6 @@
 # 通用技能
 
-* [入门教程](/common/first.md)
+* [入门](/common/first.md)
 
 ## 开发类技能
 
@@ -65,13 +65,14 @@ TBD
 
 * 代码规范
 
+* Debugging
+
 * 单元测试
 
 * 持续集成
 
 * Docker
   * <https://legacy.gitbook.com/book/yeasy/docker_practice/details>
-
 * 敏捷开发
   
 * 设计模式
@@ -89,14 +90,22 @@ TBD
 
 * 软件工程
 
+* 高等数学 / 离散数学 / 概率论 / 线性代数
+
+* 数据库
+
+* 正则表达式
+
 ## 软技能
 
-* English
-  * <https://github.com/TechMoron/EnglishClub>
+* 搭建博客
 
-* Github Pages / Hexo / Hugo
+  * Github Pages && Hexo / Hugo
+  * WordPress
 
 * 开发文档编写
+
+## 规范
 
 ## 优秀资料
 

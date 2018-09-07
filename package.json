@@ -5,8 +5,7 @@
     "main": "index.js",
     "scripts": {
         "serve": "docsify serve",
-        "lint": "markdownlint -i node_modules -i \"**/_*.md\" .",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "lint": "markdownlint -i stash -i node_modules ."
     },
     "author": "NoCLin@NCUTEA",
     "license": "ISC",
