@@ -1,9 +1,12 @@
-# 技术交流协会教程集
+<!-- markdownlint-disable first-line-h1 -->
+> 技术交流协会 教程集
 
-<img src="_media/logo.png" width="256" height="256" align=center />
+<img data-no-zoom src="_media/logo.png" width="192" height="192" align="center"/>
+<br/>
 
-<br/>
-[ACM](/acm/README.md) [Android](/android/README.md)
-[CTF](/ctf/README.md) [Web](/web/README.md)
-<br/>
-[Get Started](/README.md)
+[<img data-no-zoom src="_media/acm.svg" width="64" height="64"/>](/acm/README.md)
+[<img data-no-zoom src="_media/android.svg" width="64" height="64"/>](/android/README.md)
+[<img data-no-zoom src="_media/ctf.svg" width="64" height="64"/>](/ctf/README.md)
+[<img data-no-zoom src="_media/web.svg" width="64" height="64"/>](/web/README.md)
+
+[Getting Started](/README.md)
